@@ -15,7 +15,7 @@ jobs:
       with:
         respondableId: ${{ github.event.pull_request.node_id }}
         response: "Thank you @${{ github.event.pull_request.user.login }} for taking out your valuable time in order to contribute to our project. Looking forward for more such amazing contributions :) 
-        for mentor and pa
-        - [ ] please check if you update point of this pr"
+        <br /> For mentor and pa<br /> 
+        - [ ] please check if you have update leaderboard of this pr"
         author: ${{ github.event.pull_request.user.login }}
         exemptedAuthors: "satyam"
